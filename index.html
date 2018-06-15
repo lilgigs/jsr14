@@ -1,0 +1,78 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Tori Amos Fan Page</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- Bootstrap JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+
+</head>
+
+<style>
+    body {
+      background: url(img/tori-amos-danielle-levitt_wide-0f3d2a3e8403fd498b2eca96a035fa913b438143.jpg);
+      background-position: cover;
+    }
+
+    .fa {
+      cursor: pointer;
+      padding-left: 3px;
+    }
+    .navbar {
+      background-color: #612618;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <h1>Tori Amos Fan Page</h1>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="panel-group">
+      <div class="panel panel-danger">
+        <div class="panel-heading">Post a message for all fans of Tori to see!</div>
+        <div class="panel-body">
+          <form action="" id="message-form">
+            <div class="form-group">
+              <label>Message:</label>
+              <textarea id="message" type="text" class="form-control"></textarea>
+            </div>
+            <button class="btn btn-default">Post to board</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading">Message Board</div>
+        <div class="panel-body">
+          <ul class="message-board" id="test1">
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- jQuery -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Firebase CDN -->
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+  <!-- js -->
+  <script src="app.js"></script>
+</body>
+
+</html>
